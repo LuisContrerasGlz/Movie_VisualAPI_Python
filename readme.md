@@ -1,12 +1,27 @@
+# Capstone
+
 # Movies App with API — Harvard CS50 Web
 
-# Distinctiveness and Complexity:
- This is a web application that allows you to browse popular movies using The Movie Database (TMDb) API. The application displays a grid of movie posters and titles, and allows you to navigate through pages of movie results using pagination buttons. 
- 
- By providing functionality by combining a public API the back-end using python-django and HTML5, CSS and javascript for the front-end.
- It is also mobile and multiple OS and browser responsive which helps to provide a good user experience in terms of the easy to use interface
+# Distinctiveness and Complexity
+
+Welcome to the "Movies App with API," an immersive web application designed to provide users with an engaging exploration of the latest movies. By leveraging The Movie Database (TMDb) API, this project excels in delivering an intuitive interface for browsing popular films and accessing comprehensive information.
+
+At its core, the application focuses on simplicity and user engagement, offering a dynamic catalog of the latest movies. The seamless integration of The Movie Database API ensures that the content is consistently up-to-date, presenting users with an extensive selection of films to explore.
+
+The distinctive features of our web application include an intuitive grid layout of movie posters and titles on the main page, immediately capturing the user's attention. To enhance the browsing experience, we've integrated pagination buttons, allowing users to navigate seamlessly through multiple pages of movie results.
+
+Behind the scenes, the application's functionality is achieved by combining a robust back-end built with Python and Django, leveraging HTML5, CSS, and JavaScript for the front-end. Moreover, the mobile and multi-platform responsiveness ensures a user-friendly experience across various devices and browsers.
+
+Explore the captivating world of cinema through our application, where a visually appealing grid of movie posters and titles awaits you. Navigate through pages of movie results effortlessly using the integrated pagination buttons, and delve into the details of your favorite movies with ease.
+
 
 # File Structure
+
+### Code Organization
+
+The file structure is organized to maintain clarity and modularity. 
+Key components include the `ferreteriaWeb` directory, housing the Django project, and the `static` directory containing CSS and JavaScript files responsible for styling and interactivity. 
+The `templates` directory holds HTML files defining the structure of the main catalog page (`articulo.html`) and the detailed movie page (`deetall.html`).
 
 ## What's contained in each file:
 
@@ -30,20 +45,19 @@
     readme.md           (this file) 
     requirements.txt    (dependencies for the project to work, use pip install -r       requirements.txt) 
 
-
 ## Technologies Used
 
-The following technologies were used to create this application:
+This application harnesses the power of various technologies to deliver a seamless user experience:
 
-- HTML
-- CSS
-- JavaScript
-- The Movie Database (TMDb) API
-- Python
-- Django
+- **HTML, CSS, and JavaScript**: Crafting an engaging and responsive front-end.
+- **Python and Django**: Powering the back-end and handling server-side operations.
+- **The Movie Database (TMDb) API**: Enriching the catalog with real-time movie data.
 
 ## Setup
 
+### Installation and Configuration
+
+Setting up the application is straightforward. After cloning the repository, install the necessary dependencies using the `pip install -r requirements.txt` command. Obtain an API key from The Movie Database website and replace `YOUR_API_KEY` in the provided URL.
 To run the application, you need to follow these steps:
 
 1. Clone this repository to your local machine
@@ -57,7 +71,21 @@ To run the application, you need to follow these steps:
 
 ## Usage
 
-The application displays a grid of movie posters and titles on the main page. You can use the pagination buttons at the bottom of the page to navigate through pages of movie results.
+Upon running the application, users are welcomed with a visually appealing grid of movie posters and titles on the main page. The pagination buttons facilitate seamless exploration across multiple pages of movie results.
 Also by clicking the link under each movie poster you will go to the movie page with details and related information about it as well as similar movies for your information if you are interested.
 Make sure to do the setup listed above first.
 
+## Conclusion
+
+In conclusion, the "Movies App with API" is a testament to the fusion of technology and entertainment. By offering a distinctive and user-friendly platform, this project not only provides a dynamic catalog of the latest movies but also ensures that users can dive deep into the details of their favorite films. The integration of The Movie Database API and the thoughtful design choices contribute to the complexity that sets this project apart in the course.
+
+Feel free to explore and enjoy the world of cinema with this application!
+
+## Screenshots of working application
+
+![Screenshot](./img/index.png)
+![Screenshot](./img/index2.png)
+
+## Youtube Demo Link:
+
+The video of the project demo can be found in https://www.youtube.com/watch?v=dyDY502MS6A
