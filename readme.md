@@ -85,7 +85,3 @@ Feel free to explore and enjoy the world of cinema with this application!
 
 ![Screenshot](./img/index.png)
 ![Screenshot](./img/index2.png)
-
-## Youtube Demo Link:
-
-The video of the project demo can be found in https://www.youtube.com/watch?v=dyDY502MS6A
